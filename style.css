@@ -203,3 +203,39 @@ footer a:hover {
     padding: 1rem;
   }
 }
+
+.form-contato label,
+.form-contato input,
+.form-contato textarea,
+.form-contato button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.form-contato input,
+.form-contato textarea {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.form-contato button {
+  width: auto;
+  max-width: 150px;
+  padding: 12px 20px;
+  background-color: #ff6600;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-contato button:hover {
+  background-color: #e65c00;
+}
